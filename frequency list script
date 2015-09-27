@@ -1,0 +1,9 @@
+cat azkabanscript.txt 
+wc -l azkabanscript.txt 
+wc -m azkabanscript.txt
+tr -d [:punct:] < azkabanscript.txt > azkabanscript-nopunct.txt
+tr [:upper:] [:lower:] < azkabanscript-nopunct.txt > azkabanscript-lowercase.txt
+tr -d '\r' < azkabanscript-lowercase.txt > azkabanscript-lowercaself.txt
+tr ' ' '\n' < azkabanscript-lowercaself.txt > azkabanscript-oneword.txt
+sort azkabanscript-oneword.txt > azkabanscript-onewordsort.txt
+uniq -c azkabanscript-onewordsort.txt > azkabanscript-wordfreq.txt
