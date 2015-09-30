@@ -1,0 +1,19 @@
+cat azkabanbook.txt 
+wc -l azkabanbook.txt 
+wc -m azkabanbook.txt
+tr -d [:punct:] < azkabanbook.txt > azkabanbook-nopunct.txt
+tr [:upper:] [:lower:] < azkabanbook-nopunct.txt > azkabanbook-lowercase.txt
+tr -d '\r' < azkabanbook-lowercase.txt > azkabanbook-lowercaself.txt
+tr ' ' '\n' < azkabanbook-lowercaself.txt > azkabanbook-oneword.txt
+sort azkabanbook-oneword.txt > azkabanbook-onewordsort.txt
+uniq -c azkabanbook-onewordsort.txt > azkabanbook-wordfreq.txt
+
+cat azkabanscript.txt 
+wc -l azkabanscript.txt 
+wc -m azkabanscript.txt
+tr -d [:punct:] < azkabanscript.txt > azkabanscript-nopunct.txt
+tr [:upper:] [:lower:] < azkabanscript-nopunct.txt > azkabanscript-lowercase.txt
+tr -d '\r' < azkabanscript-lowercase.txt > azkabanscript-lowercaself.txt
+tr ' ' '\n' < azkabanscript-lowercaself.txt > azkabanscript-oneword.txt
+sort azkabanscript-oneword.txt > azkabanscript-onewordsort.txt
+uniq -c azkabanscript-onewordsort.txt > azkabanscript-wordfreq.txt
