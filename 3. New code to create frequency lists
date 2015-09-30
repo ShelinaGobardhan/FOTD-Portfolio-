@@ -1,0 +1,3 @@
+cat azkabanbook.txt | tr -sc '[A-Z][a-z]' '[\012*]' | sort | uniq -c | awk '{print $2 "\t" $1}' > azkabanbook.word_freq.csv
+cat azkabanscript.txt | tr -sc '[A-Z][a-z]' '[\012*]' | sort | uniq -c | awk '{print $2 "\t" $1}' > azkabanscript.word_freq.csv
+cat azkabanscript.word_freq.csv azkabanbook.word_freq.csv | grep -E 'Hogwarts|Harry|Voldemort' | column -t
