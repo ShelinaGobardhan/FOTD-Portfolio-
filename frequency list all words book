@@ -1,9 +1,0 @@
-cat azkabanbook.txt 
-wc -l azkabanbook.txt 
-wc -m azkabanbook.txt
-tr -d [:punct:] < azkabanbook.txt > azkabanbook-nopunct.txt
-tr [:upper:] [:lower:] < azkabanbook-nopunct.txt > azkabanbook-lowercase.txt
-tr -d '\r' < azkabanbook-lowercase.txt > azkabanbook-lowercaself.txt
-tr ' ' '\n' < azkabanbook-lowercaself.txt > azkabanbook-oneword.txt
-sort azkabanbook-oneword.txt > azkabanbook-onewordsort.txt
-uniq -c azkabanbook-onewordsort.txt > azkabanbook-wordfreq.txt
