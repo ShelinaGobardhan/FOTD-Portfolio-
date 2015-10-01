@@ -21,3 +21,33 @@ $ cat azkabanscript.word_freq.csv | grep -E 'Hogwarts|Azkaban|Hogsmeade|Shriekin
 
 Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
 $ join booklocations.csv scriptlocations.csv| column -t
+
+Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Azkaban" azkabanbook.txt
+
+Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Azkaban" azkabanscript.txt
+
+Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Hogsmeade" azkabanbook.txt
+
+Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Hogsmeade" azkabanscript.txt
+
+Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Hogwarts" azkabanbook.txt
+
+Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Hogwarts" azkabanscript.txt
+
+Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Shrieking Shack" azkabanbook.txt
+
+Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Shrieking Shack" azkabanscript.txt
+
+Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Whomping Willow" azkabanbook.txt
+
+ Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
+$ grep "Whomping Willow" azkabanscript.txt
