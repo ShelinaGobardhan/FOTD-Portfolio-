@@ -1,13 +1,39 @@
 cat azkabanbook.txt | tr -sc '[A-Z][a-z]' '[\012*]' | sort | uniq -c | awk '{print $2 "\t" $1}' >     azkabanbook.word_freq.csv
+
 cat azkabanscript.txt | tr -sc '[A-Z][a-z]' '[\012*]' | sort | uniq -c | awk '{print $2 "\t" $1}' > azkabanscript.word_freq.csv
+
 cat azkabanscript.word_freq.csv azkabanbook.word_freq.csv | grep -E 'he|she' | column -t
+
 cat azkabanscript.word_freq.csv azkabanbook.word_freq.csv | grep -w -i -E 'She|He' | column -t
+
 tr '[a-z]' '[A-Z]' < azkabanbook.word_freq.csv |
 > tr -sc '[A-Z]' '[\012*]' |
 > sort |
 > uniq -c
+
 tr '[a-z]' '[A-Z]' < azkabanscript.word_freq.csv |
 > tr -sc '[A-Z]' '[\012*]' |
 > sort |
 > uniq -c
+
 cat azkabanscript.word_freq.csv azkabanbook.word_freq.csv | grep -w -i -E 'She|He' | column -t
+
+grep -w -i "he" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+
+grep -w -i "she" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+
+grep -w -i "wizard" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+
+rep -w -i "witch" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+
+grep -w -i "man" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+
+grep -w -i "men" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+
+grep -w -i "woman" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+
+grep -w -i "women" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+
+grep -w -i "him" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+
+grep -w -i "her" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
