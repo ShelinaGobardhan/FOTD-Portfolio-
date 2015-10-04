@@ -8,3 +8,7 @@ join bookcharacters.csv scriptcharacters.csv| column -t
 join bookcharacters.csv scriptcharacters.csv| column -t | sort -n -k2 | uniq
 join bookcharacters.csv scriptcharacters.csv| column -t | sort -n -k2 | uniq > bookscriptcharacters.csv
 cat bookscriptcharacters.csv
+awk 'NR==FNR{a = a + $2;next} {c = ($2/a)*100;print $1,$2,c }' bookcharacters.csv bookcharacters.csv | column -t > bookpercentage.csv
+awk 'NR==FNR{a = a + $2;next} {c = ($2/a)*100;print $1,$2,c }' scriptcharacters.csv scriptcharacters.csv | column -t > scriptpercentage.csv
+join bookpercentage.csv scriptpercentage.csv | column -t | sort -n -k2 | uniq > bookscriptpercentage.csv
+cat bookscriptpercentage.csv
