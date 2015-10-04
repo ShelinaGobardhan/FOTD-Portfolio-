@@ -7,3 +7,4 @@ cat azkabanscript.word_freq.csv | grep -E 'Harry|Potter|Bathilda|Bagshot|Wendeli
 join bookcharacters.csv scriptcharacters.csv| column -t
 join bookcharacters.csv scriptcharacters.csv| column -t | sort -n -k2 | uniq
 join bookcharacters.csv scriptcharacters.csv| column -t | sort -n -k2 | uniq > bookscriptcharacters.csv
+cat bookscriptcharacters.csv
