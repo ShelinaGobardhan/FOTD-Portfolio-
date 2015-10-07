@@ -1,0 +1,38 @@
+cat azkabanbook.txt | grep -o -w -E "\w+in'" > azkabanbook_dialect_gerund.csv #prints a list of only (-o) whole words (-w) ending in "-in'"
+wc -l azkabanbook_dialect_gerund.csv #counts all occurrences of words ending in "-in'" in book
+
+cat azkabanscript.txt | grep -o -w -E "\w+in'" > azkabanscript_dialect_gerund.csv #prints a list of only (-o) whole words (-w) ending in "-in'"
+wc -l  azkabanscript_dialect_gerund.csv  #counts all occurrences of words ending in "-in'" in script
+
+cat azkabanbook.txt | grep -o -w -E "\w+ing" > azkabanbook_standard_gerund.csv #prints a list of only (-o) whole words (-w) ending in "-ing"
+wc -l  azkabanbook_standard_gerund.csv #counts all occurrences of words ending in "-ing" in book
+
+cat azkabanscript.txt | grep -o -w -E "\w+ing" > azkabanscript_standard_gerund.csv #prints a list of only (-o) whole words (-w) ending in "-ing"
+wc -l azkabanscript_standard_gerund.csv #counts all occurrences of words ending in "-ing" in script
+
+cat azkabanbook.txt | grep -o -w -i -E "an'" > azkabanbook_dialect_iand.csv #prints a list of all occurrences of the word "an'" in book ignoring case
+wc -l azkabanbook_dialect_iand.csv #counts all occurrences of the word "an'" in book ignoring case
+cat azkabanscript.txt | grep -o -w -i -E "an'" > azkabanscript_dialect_iand.csv #prints a list of all occurrences of the word "an'" in script ignoring case
+wc -l azkabanscript_dialect_iand.csv #counts all occurrences of the word "an'" in script ignoring case
+cat azkabanbook.txt | grep -o -w -i -E "and" > azkabanbook_standard_iand.csv #prints a list of all occurrences of the word "and" in book ignoring case
+wc -l azkabanbook_standard_iand.csv #counts all occurrences of the word "and" in book ignoring case
+cat azkabanscript.txt | grep -o -w -i -E "and" > azkabanscript_standard_iand.csv #prints a list of all occurrences of the word "and" in script ignoring case
+wc -l azkabanscript_standard_iand.csv #counts all occurrences of the word "and" in script ignoring case
+
+cat azkabanbook.txt | grep -o -w -i -E "ter" > azkabanbook_dialect_ito.csv #idem "ter"
+wc -l azkabanbook_dialect_ito.csv
+cat azkabanscript.txt | grep -o -w -i -E "ter" > azkabanscript_dialect_ito.csv
+wc -l azkabanscript_dialect_ito.csv
+cat azkabanbook.txt | grep -o -w -i -E "to" > azkabanbook_standard_ito.csv #idem "to"
+wc -l azkabanbook_standard_ito.csv
+cat azkabanscript.txt | grep -o -w -i -E "to" > azkabanscript_standard_ito.csv
+wc -l azkabanscript_standard_ito.csv
+
+cat azkabanbook.txt | grep -o -w -i -E "yeh" > azkabanbook_dialect_iyou.csv #idem "yeh"
+wc -l azkabanbook_dialect_iyou.csv
+cat azkabanscript.txt | grep -o -w -i -E "yeh" > azkabanscript_dialect_iyou.csv
+wc -l azkabanscript_dialect_iyou.csv
+cat azkabanbook.txt | grep -o -w -i -E "you" > azkabanbook_standard_iyou.csv #idem "you"
+wc -l azkabanbook_standard_iyou.csv
+cat azkabanscript.txt | grep -o -w -i -E "you" > azkabanscript_standard_iyou.csv
+wc -l azkabanscript_standard_iyou.csv
