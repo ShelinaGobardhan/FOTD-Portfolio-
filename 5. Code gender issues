@@ -37,7 +37,3 @@ grep -w -i "women" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
 grep -w -i "him" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
 
 grep -w -i "her" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
-
-or:
-
-grep -w -i "he" "she" "wizard" "witch" "man" "men" "woman" "women" "him" "her" " azkabanscript.word_freq.csv azkabanbook.word_freq.csv
