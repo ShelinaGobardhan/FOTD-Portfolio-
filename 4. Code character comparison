@@ -12,3 +12,8 @@ awk 'NR==FNR{a = a + $2;next} {c = ($2/a)*100;print $1,$2,c }' bookcharacters.cs
 awk 'NR==FNR{a = a + $2;next} {c = ($2/a)*100;print $1,$2,c }' scriptcharacters.csv scriptcharacters.csv | column -t > scriptpercentage.csv
 join bookpercentage.csv scriptpercentage.csv | column -t | sort -n -k2 | uniq > bookscriptpercentage.csv
 cat bookscriptpercentage.csv
+cat azkabanscript2.txt | tr -sc '[A-Z][a-z]' '[\012*]' | sort | uniq -c | awk '{print $2 "\t" $1}' > azkabanscript2.word_freq.csv
+cat azkabanscript2.word_freq.csv | grep -E 'Harry|Potter|Bathilda|Bagshot|Wendelin|Vernon|Dursley|Petunia|Dudley|Ron|Weasley|Hermione|Granger|Hedwig|Lily|James|Errol|Arthur|Bill|Molly|Scabbers|Ginny|Percy|Fred|George|Hagrid|Minvera|McGonagall|Sirius|Black|Marge|Ripper|Fubster|Stan|Shunpike|Neville|Longbottom|Ernie|Prang|Marsh|Cornelius|Fudge|Minister|Voldemort|Tom|Florean|Fortescue|Malkin|Cassandra|Vablatsky|Seamus|Finnigan|Dean|Thomas|Crookshanks|Penelope|Clearwater|Remus|Lupin|Draco|Malfoy|Vincent|Crabbe|Gregory|Goyle|Poppy|Pomfrey|Albus|Dumbledore|Professor|Kettleburn|Pansy|Parkinson|Cadogan|Fang|Sibyll|Trelawney|Buckbeak|Parvati|Patil|Lavender|Brown|Colin|Creevey|Argus|Filch|Hannah|Abbott|Marcus|Flint|Cedric|Diggory|Davey|Gudgeon|Moony|Wormtail|Padfoot|Prongs|Rosmerta|Peter|Pettigrew|Derek|Vector|Ernie|MacMillian|Cho|Chang|Davies|Warrington|Montague|Derrick|Bole|Walden|Macnair' | column -t > script2characters.csv
+paste bookcharacters.csv scriptcharacters.csv script2characters.csv | column -t 
+paste bookcharacters.csv scriptcharacters.csv script2characters.csv | column -t > bookscriptscript2characters.csv
+cat bookscriptscript2characters.csv
