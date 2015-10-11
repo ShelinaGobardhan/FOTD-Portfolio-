@@ -1,5 +1,4 @@
-Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Azkaban" azkabanbook.txt
+grep "Azkaban" azkabanbook.txt
 Harry Potter and the Prisoner of Azkaban
         Sirius Black, possibly the most infamous prisoner ever to be held in Azkaban fortress, is still eluding capture, the Ministry of Magic confirmed today.
       "If he weren't when he went to Azkaban, he will be now," said Ern in his slow voice. "I'd blow meself up before I set foot in that place. Serves him right, mind you... after what he did..."
@@ -44,8 +43,7 @@ supporters ended up in Azkaban, did they? There are still plenty out here, bidin
       "He can go to Azkaban," Harry repeated. "If anyone deserves that place, he does..."
       "Oh yes, they'll have to go," said Fudge, running his fingers distractedly through his hair. "Never dreamed they'd attempt to administer the Kiss on an innocent boy... Completely out of control... no, I'll have them packed off back to Azkaban tonight... Perhaps we should think about dragons at the school entrance..."
 
-Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Azkaban" azkabanscript.txt
+grep "Azkaban" azkabanscript.txt
                         Prisoner of Azkaban
                   locked up in Azkaban for it.
                   doesn't send people to Azkaban for
@@ -59,8 +57,7 @@ $ grep "Azkaban" azkabanscript.txt
                    years in Azkaban. We don't need a
 
 
-Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Hogsmeade" azkabanbook.txt
+grep "Hogsmeade" azkabanbook.txt
       Third years are permitted to visit the village of Hogsmeade on certain weekends. Please give the enclosed permission form to your parent or guardian to sign.
         Harry pulled out the Hogsmeade permission form and looked at it, no longer grinning. It would be wonderful to visit Hogsmeade on weekends; he knew it was an entirely wizarding village, and he had never set foot there. But how on earth was he going to persuade Uncle Vernon or Aunt Petunia to sign the form?
       Deciding that he'd worry about the Hogsmeade form when he woke up, Harry got back into bed and reached up to cross off another day on the chart he'd made for himself, counting down the days left until his return to Hogwarts. Then he took off his glasses and lay down; eyes open, facing his three birthday cards.
@@ -120,15 +117,13 @@ Hogsmeade..."
         When Harry, Ron, and Hermione left the hospital wing at noon the next day, it was to find an almost deserted castle. The sweltering, heat and the end of the exams meant that everyone was taking full advantage of another Hogsmeade visit. Neither Ron nor Hermione felt like going, however, so they and Harry wandered onto the grounds, still talking about the extraordinary events of the previous night and wondering where Sirius and Buckbeak were now. Sitting near the lake, watching the giant squid waving its tentacles lazily above the water, Harry lost the thread of the conversation as he looked across to the opposite bank. The stag had galloped toward him from there just last night...
         I, Sirius Black, Harry Potter's godfather, hereby give him permission to visit Hogsmeade on weekends.
 
-Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Hogsmeade" azkabanscript.txt
+grep "Hogsmeade" azkabanscript.txt
                   Hogsmeade Village are a privilege.
                     So.   No Hogsmeade, eh ?
      The Hall buzzes with tales of Hogsmeade, as students swap
                   Sirius Black? In Hogsmeade!       And
 
-Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Hogwarts" azkabanbook.txt
+grep "Hogwarts" azkabanbook.txt
       The Dursley family of Number Four, Privet Drive, was the reason that Harry never enjoyed his summer holidays. Uncle Vernon, Aunt Petunia, and their son, Dudley, were Harry's only living relatives. They were Muggles, and they had a very medieval attitude toward magic. Harry's dead parents, who had been a witch and wizard themselves, were never mentioned under the Dursleys' roof. For years, Aunt Petunia and Uncle Vernon had hoped that if they kept Harry as downtrodden as possible, they would be able to squash the magic out of him. To their fury, they had not been unsuccessful. These days they lived in terror of anyone finding out that Harry had spent most of the last two years at Hogwarts School of Witchcraft and Wizardry. The most they could do, however, was to lock away Harry's spell books, wand, cauldron, and broomstick at the
       This separation from his spell books had been a real problem for Harry, because his teachers at Hogwarts had given him a lot of holiday work. One of the essays, a particularly nasty one about shrinking potions, was for Harry's least favorite teacher, Professor Snape, who would be delighted to have an excuse to give Harry detention for a month. Harry had therefore seized his chance in the first week of the holidays. While Uncle Vernon, Aunt Petunia, and Dudley had gone out into the front garden to admire Uncle Vernon's new company car (in very loud voices, so that the rest of the street would notice it too), Harry had crept downstairs, picked the lock on the cupboard under the stairs, grabbed some of his books, and hidden them in his bedroom. As long as he didn't leave spots of ink on the sheets, the Dursleys need never know that he was studying magic by night.
       Ron Weasley, who was one of Harry's best friends at Hogwarts, came from a whole family of wizards. This meant that he knew a lot of things Harry didn't, but had never used a telephone before. Most unluckily, it had been Uncle Vernon who had answered the call.
@@ -217,8 +212,7 @@ Harry, Ron, and Hermione, however, were eager for it to finish so that they coul
         I believe the Dementors are still searching for me, but they haven't a hope of finding me here. I am planning to allow some Muggles to glimpse me soon, a long way from Hogwarts, so that the security on the castle will be lifted.
         I am enclosing something else for you, which I think will make your next year at Hogwarts more enjoyable.
 
- Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Hogwarts" azkabanscript.txt
+grep "Hogwarts" azkabanscript.txt
                   you'll be on your way to Hogwarts.
      ARGUS FILCH, Hogwarts' caretaker, stands grimly to the
                   at Hogwarts! I have a few things
@@ -233,8 +227,7 @@ $ grep "Hogwarts" azkabanscript.txt
       Harry looks at Hogwarts. GRINS. Sirius does the same.
       DING! The Hogwarts BELL begins to TOLL. Harry and
 
- Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Shrieking Shack" azkabanbook.txt
+grep "Shrieking Shack" azkabanbook.txt
 Historical Sorcery it says the inn was the headquarters for the 1612 goblin rebellion, and the Shrieking Shack's supposed to be the most severely haunted building in Britain -"
       "They make a fuss about Hogsmeade, but I assure you, Harry, it's not all it's cracked up to be," he said seriously. "All right, the sweetshop's rather good, and Zonko's Joke Shop's frankly dangerous, and yes, the Shrieking Shack's always worth a visit, but really, Harry, apart from that, you're not missing anything."
       "We could go up to the Shrieking Shack -"
@@ -246,13 +239,11 @@ Historical Sorcery it says the inn was the headquarters for the 1612 goblin rebe
       "And does my evidence count for nothing?" snarled Snape. "Peter Pettigrew was not in the Shrieking Shack, nor did I see any sign of him on the grounds."
       "Here - I brought this from the Shrieking Shack last night," he said, handing Harry back the Invisibility Cloak. "And..." He hesitated, then held out the Marauder's Map too. "I am no longer your teacher, so I don't feel guilty about giving you back this as well. It's no use to me, and I daresay you, Ron, and Hermione will find uses for it."
 
-Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Shrieking Shack" azkabanscript.txt
+grep "Shrieking Shack" azkabanscript.txt
      veils, the Shrieking Shack an eerie silhouette in the
                  We're in the Shrieking Shack,
 
-Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Whomping Willow" azkabanbook.txt
+grep "Whomping Willow" azkabanbook.txt
       "And it hit - it hit - oh, Harry - it hit the Whomping Willow."
       Harry's insides lurched. The Whomping Willow was a very violent tree that stood alone in the middle of the grounds.
       "Well, you know the Whomping Willow," said Ron. "It - it doesn't like being hit."
@@ -269,8 +260,7 @@ $ grep "Whomping Willow" azkabanbook.txt
       "We're going to have to move," said Harry, thinking hard. "We've got to be able to see the Whomping Willow, or we won't know what's going on."
       The Whomping Willow was creaking and lashing out with its lower branches; they could see themselves darting here and there, trying to reach the trunk. And then the tree froze.
 
- Startklaar@Startklaar-pc /cygdrive/c/cygwin64/HP
-$ grep "Whomping Willow" azkabanscript.txt
+ grep "Whomping Willow" azkabanscript.txt
      Hagrid's hut. The Whomping Willow looms in the distance.
      grass below. Circling over the Whomping Willow, past
      The Whomping Willow idly casts off a few withering
@@ -282,3 +272,53 @@ $ grep "Whomping Willow" azkabanscript.txt
        As the Whomping Willow begins to thrash, its violence
        glances beyond the trees, toward the Whomping Willow.
       The Whomping Willow sways in a light breeze. The Black
+      
+grep 'Harry' azkabanbook.txt | grep 'Hogsmeade'
+        Harry pulled out the Hogsmeade permission form and looked at it, no longer grinning. It would be wonderful to visit Hogsmeade on weekends; he knew it was an entirely wizarding village, and he had never set foot there. But how on earth was he going to persuade Uncle Vernon or Aunt Petunia to sign the form?
+      Deciding that he'd worry about the Hogsmeade form when he woke up, Harry got back into bed and reached up to cross off another day on the chart he'd made for himself, counting down the days left until his return to Hogwarts. Then he took off his glasses and lay down; eyes open, facing his three birthday cards.
+      Harry was bursting to say that he'd rather live in an orphanage than with the Dursleys, but the thought of the Hogsmeade form stopped him. He forced his face into a painful smile.
+      Harry tried to concentrate on his food, but his hands shook and his face was starting to burn with anger. Remember the form, he told himself. Think about Hogsmeade. Don't say anything. Don't rise -
+      "Perhaps you'll be able to visit Hogsmeade next year. In fact, I think it's best if you don't... yes... well, I'll be off. Enjoy your stay, Harry."
+      No, all in all, the thing that bothered Harry most was the fact that his chances of visiting Hogsmeade now looked like zero. Nobody would want Harry to leave the safety of the castle until Black was caught; in fact, Harry suspected his every move would be carefully watched until the danger had passed.
+      "Black's not fool enough to try anything in Hogsmeade," said Ron. "Ask McGonagall if you can go this time, Harry. The next one might not be for ages -"
+      They had Transfiguration next. Harry, who had resolved to ask Professor McGonagall after the lesson whether he could go into Hogsmeade with the rest, joined the line outside the class trying to decide how he was going to argue his case. He was distracted, however, by a disturbance at the front of the line.
+      Harry still hadn't decided what he was going to say to Professor McGonagall when the bell rang at the end of the lesson, but it was she who brought up the subject of Hogsmeade first.
+      There was nothing to be done. Ron called Professor McGonagall a lot of names that greatly annoyed Hermione; Hermione assumed an 'all-for-the-best' expression that made Ron even angrier, and Harry had to endure everyone in the class talking loudly and happily about what they were going to do first, once they got into Hogsmeade.
+      The Halloween feast was always good, but it would taste a lot better if he was coming to it after a day in Hogsmeade with everyone else. Nothing anyone said made him feel any better about being left behind. Dean Thomas, who was good with a quill, had offered to forge Uncle Vernon's signature on the form, but as Harry had already told Professor McGonagall he hadn't had it signed, that was no good. Ron halfheartedly suggested the Invisibility Cloak, but Hermione stamped on that one, reminding Ron what Dumbledore had told them about the Dementors being able to see through them. Percy had what were possibly the least helpful words of comfort.
+      "They make a fuss about Hogsmeade, but I assure you, Harry, it's not all it's cracked up to be," he said seriously. "All right, the sweetshop's rather good, and Zonko's Joke Shop's frankly dangerous, and yes, the Shrieking Shack's always worth a visit, but really, Harry, apart from that, you're not missing anything."
+      "Aren't you going to Hogsmeade, Harry? Why not? Hey -" Colin looked eagerly around at his friends - "you can come and sit with us, if you like, Harry!"
+      Harry wandered dispiritedly toward the library, but halfway there he changed his mind; he didn't feel like working. He turned around and came face-to-face with Filch, who had obviously just seen off the last of the Hogsmeade visitors.
+      "Hogsmeade," said Harry, in a would-be casual voice.
+      "Thanks," said Harry, picking up a packet of tiny black Pepper Imps. "What's Hogsmeade like? Where did you go?"
+      To everyone's delight except Harry's, there was to be another Hogsmeade trip on the very last weekend of the term.
+      On the Saturday morning of the Hogsmeade trip, Harry bid good-bye to Ron and Hermione, who were wrapped in cloaks and scarves, then turned up the marble staircase alone, and headed back toward Gryffindor Tower. Snow had started to fall outside the windows, and the castle was very still and quiet.
+      "What are you doing?" said Harry curiously. "How come you're not going to Hogsmeade?"
+      This map was one of those dangerous magical objects Mr. Weasley had been warning against... Aids for Magical Mischief Makers... but then, Harry reasoned, he only wanted to use it to get into Hogsmeade, it wasn't as though he wanted to steal anything or attack anyone... and Fred and George had been using it for years without anything horrible happening...
+      "Yes, but - but -" Heroine seemed to be struggling to find another problem. "Look, Harry still shouldn't be coming into Hogsmeade. He hasn't got a signed form! If anyone finds out, he'll be in so much trouble! And it's not nightfall yet - what if Sirius Black turns up today? Now?"
+      Ron and Hermione watched Harry nervously all through dinner, not daring to talk about what they'd overheard, because Percy was sitting close by them. When they went upstairs to the crowded common room, it was to find Fred and George had set off half a dozen Dungbombs in a fit of end-of-term high spirits. Harry, who didn't want Fred and George asking him whether he'd reached Hogsmeade or not, sneaked quietly up to the empty dormitory and headed straight for his bedside cabinet. He pushed his books aside and quickly found what he was looking for - the leather-bound photo album Hagrid had given him two years ago, which was full of wizard pictures of his mother and father. He sat down on his bed, drew the hangings around him, and started turning the pages, searching, until...
+      "Oh - Ron and Hermione brought me some back from Hogsmeade," Harry lied quickly.
+      Harry was glad Ron took this view. If the one-eyed witch was boarded up too, he would never be able to go into Hogsmeade again.
+      "Hogsmeade, next weekend!" said Ron, craning over the heads to read the new notice. "What d'you reckon?" he added quietly to Harry as they went to sit down.
+      "Harry, if you go into Hogsmeade again... I'll tell Professor McGonagall about that map!" said Hermione.
+      "Harry! I forgot you weren't going to Hogsmeade either!"
+      "See you later," said Harry, and without another word, he tore back down the path toward Hogsmeade.
+      "Malfoy is not having hallucinations," snarled Snape, and he bent down, a hand on each arm of Harry's chair, so that their faces were a foot apart. "If your head was in Hogsmeade, so was the rest of you."
+      "Ron gave them to me," said Harry, praying he'd get a chance to tip Ron off before Snape saw him. "He brought them back from Hogsmeade last time -"
+      The whole of Gryffindor House was obsessed with the coming match. Gryffindor hadn't won the Quidditch Cup since the legendary Charlie Weasley (Ron's second oldest brother) had been Seeker. But Harry doubted whether any of them, even Wood, wanted to win as much as he did. The enmity between Harry and Malfoy was at its highest point ever. Malfoy was still smarting about the mud-throwing incident in Hogsmeade and was even more furious that Harry had somehow wormed his way out of punishment. Harry hadn't forgotten Malfoy's attempt to sabotage him in the match against Ravenclaw, but it was the matter of Buckbeak that made him most determined to beat Malfoy in front of the entire school.
+        When Harry, Ron, and Hermione left the hospital wing at noon the next day, it was to find an almost deserted castle. The sweltering, heat and the end of the exams meant that everyone was taking full advantage of another Hogsmeade visit. Neither Ron nor Hermione felt like going, however, so they and Harry wandered onto the grounds, still talking about the extraordinary events of the previous night and wondering where Sirius and Buckbeak were now. Sitting near the lake, watching the giant squid waving its tentacles lazily above the water, Harry lost the thread of the conversation as he looked across to the opposite bank. The stag had galloped toward him from there just last night...
+        I, Sirius Black, Harry Potter's godfather, hereby give him permission to visit Hogsmeade on weekends.
+
+grep 'Harry' azkabanbook.txt | grep 'Shrieking Shack'
+      "They make a fuss about Hogsmeade, but I assure you, Harry, it's not all it's cracked up to be," he said seriously. "All right, the sweetshop's rather good, and Zonko's Joke Shop's frankly dangerous, and yes, the Shrieking Shack's always worth a visit, but really, Harry, apart from that, you're not missing anything."
+      "Harry," she whispered, "I think we're in the Shrieking Shack."
+      "Here - I brought this from the Shrieking Shack last night," he said, handing Harry back the Invisibility Cloak. "And..." He hesitated, then held out the Marauder's Map too. "I am no longer your teacher, so I don't feel guilty about giving you back this as well. It's no use to me, and I daresay you, Ron, and Hermione will find uses for it."
+
+grep 'Harry' azkabanbook.txt | grep 'Whomping Willow'
+      "And it hit - it hit - oh, Harry - it hit the Whomping Willow."
+      Harry's insides lurched. The Whomping Willow was a very violent tree that stood alone in the middle of the grounds.
+      "He can't be getting in through a passage," said Harry quickly. "There are seven secret tunnels on the map, right? Fred and George reckon Filch already knows about four of them. And of the other three - one of them's caved in, so no one can get through it. One of them's got the Whomping Willow planted over the entrance, so you can't get out of it. And the one I just came through - well - it's really hard to see the entrance to it down in the cellar - so unless he knew it was there -"
+      "But then Dumbledore became Headmaster, and he was sympathetic. He said that as long as we took certain precautions, there was no reason I shouldn't come to school..." Lupin sighed, and looked directly at Harry. "I told you, months ago, that the Whomping Willow was planted the year I came to Hogwarts. The truth is that it was planted because I came to Hogwarts. This house" - Lupin looked miserably around the room, - "the tunnel that leads to it - they were built for my use. Once a month, I was smuggled out of the castle, into this place, to transform. The tree was placed at the tunnel mouth to stop anyone coming across me while I was dangerous."
+      "Severus was very interested in where I went every month." Lupin told Harry, Ron, and Hermione. "We were in the same year, you know, and we - er - didn't like each other very much. He especially disliked James. Jealous, I think, of James's talent on the Quidditch field... anyway Snape had seen me crossing the grounds with Madam Pomfrey one evening as she led me toward the Whomping Willow to transform. Sirius thought it would be - er - amusing, to tell Snape all he had to do was prod the knot on the tree trunk with a long stick, and he'd be able to get in after me. Well, of course, Snape tried it - if he'd got as far as this house, he'd have met a fully grown werewolf - but your father, who'd heard what Sirius had done, went after Snape and pulled him back, at great risk to his life... Snape glimpsed me, though, at the end of the tunnel. He was forbidden by Dumbledore to tell anybody, but from that time on he knew what I was..."
+      Still working out what she meant, Harry set off at a sprint, Hermione behind him. They tore across the vegetable gardens to the greenhouses, paused for a moment behind them, then set off again, fast as they could, skirting around the Whomping Willow, tearing toward the shelter of the forest...
+      "We're going to have to move," said Harry, thinking hard. "We've got to be able to see the Whomping Willow, or we won't know what's going on."
+
