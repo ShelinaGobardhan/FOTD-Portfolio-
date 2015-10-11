@@ -33,3 +33,9 @@ grep "Shrieking Shack" azkabanscript.txt
 grep "Whomping Willow" azkabanbook.txt
 
 grep "Whomping Willow" azkabanscript.txt
+
+grep 'Harry' azkabanbook.txt | grep 'Hogsmeade'
+
+grep 'Harry' azkabanbook.txt | grep 'Shrieking Shack'
+ 
+grep 'Harry' azkabanbook.txt | grep 'Whomping Willow'
