@@ -5,10 +5,16 @@ cat azkabanscript.txt | grep -o -w -E "\w+in'" > azkabanscript_dialect_gerund.cs
 wc -l  azkabanscript_dialect_gerund.csv  #counts all occurrences of words ending in "-in'" in script
 
 cat azkabanbook.txt | grep -o -w -E "\w+ing" > azkabanbook_standard_gerund.csv #prints a list of only (-o) whole words (-w) ending in "-ing"
-wc -l  azkabanbook_standard_gerund.csv #counts all occurrences of words ending in "-ing" in book
+wc -l azkabanbook_standard_gerund.csv #counts all occurrences of words ending in "-ing" in book
+tr -sc '[A-Z][a-z]' '[\012*]'  < azkabanbook_standard_gerund.csv |
+grep -i '^[^aeiouy]*[aeiouy][^aeiouy]*$' > azkabanbook_standard_gerund_1syll.csv 
+wc -l  azkabanbook_standard_gerund_1syll.csv #counts all occurrences of 1-syllable words ending in "-ing" in book
 
 cat azkabanscript.txt | grep -o -w -E "\w+ing" > azkabanscript_standard_gerund.csv #prints a list of only (-o) whole words (-w) ending in "-ing"
 wc -l azkabanscript_standard_gerund.csv #counts all occurrences of words ending in "-ing" in script
+tr -sc '[A-Z][a-z]' '[\012*]'  < azkabanscript_standard_gerund.csv |
+grep -i '^[^aeiouy]*[aeiouy][^aeiouy]*$' > azkabanscript_standard_gerund_1syll.csv 
+wc -l  azkabanscript_standard_gerund_1syll.csv #counts all occurrences of 1-syllable words ending in "-ing" in script
 
 cat azkabanbook.txt | grep -o -w -i -E "an'" > azkabanbook_dialect_iand.csv #prints a list of all occurrences of the word "an'" in book ignoring case
 wc -l azkabanbook_dialect_iand.csv #counts all occurrences of the word "an'" in book ignoring case
