@@ -24,7 +24,7 @@ grep -w -i "she" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
 
 grep -w -i "wizard" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
 
-rep -w -i "witch" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
+grep -w -i "witch" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
 
 grep -w -i "man" azkabanscript.word_freq.csv azkabanbook.word_freq.csv
 
